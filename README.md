@@ -1,1 +1,1 @@
-# Cclassification-of-Cancer-images-using-CNN
+# Classification-of-Cancer-images-using-CNN
