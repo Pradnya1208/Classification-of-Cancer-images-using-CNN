@@ -62,7 +62,7 @@ def generate_images(imgs):
 
 ### Neural Network:
 <img src="https://github.com/Pradnya1208/Classification-of-Cancer-images-using-CNN/blob/main/output/nn.PNG?raw=true">
-<img src="https://github.com/Pradnya1208/Classification-of-Cancer-images-using-CNN/blob/main/output/cm.PNG?raw=true" width="60%">
+<img src="https://github.com/Pradnya1208/Classification-of-Cancer-images-using-CNN/blob/main/output/cm.PNG?raw=true" width="40%">
 
 
 
