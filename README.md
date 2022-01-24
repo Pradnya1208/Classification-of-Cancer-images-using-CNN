@@ -13,6 +13,6 @@
 
 </div>
 
-# <div align="center">Classification of Cancer using CNN</div>
+# <div align="center">Classification of Cancer using CNN (IDC vs Non-IDC Images)</div>
 <div align="center"><img src = "https://github.com/Pradnya1208/Classification-of-Cancer-images-using-CNN/blob/main/output/intro.gif?raw=true" width="60%"></div>
 
