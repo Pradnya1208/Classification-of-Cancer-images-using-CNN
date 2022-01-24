@@ -66,43 +66,8 @@ def generate_images(imgs):
 
 
 
-
-### Keras embedding layer:
-A Keras Embedding Layer can be used to train an embedding for each word in your vocabulary. Each word (or sub-word in this case) will be associated with a 16-dimensional vector (or embedding) that will be trained by the model.
-```
-# Create an embedding layer.
-embedding_dim = 16
-embedding = tf.keras.layers.Embedding(encoder.vocab_size, embedding_dim)
-# Configure the embedding layer as part of a keras model.
-model = tf.keras.Sequential(
-    [
-        embedding, # The embedding layer should be the first layer in a model.
-        tf.keras.layers.GlobalAveragePooling1D(),
-        tf.keras.layers.Dense(16, activation="relu"),
-        tf.keras.layers.Dense(1),
-    ]
-)
-```
-### Saving the data for tensorboard:
-TensorBoard reads tensors and metadata from the logs of your tensorflow projects. The path to the log directory is specified with log_dir below. For this tutorial, we will be using /logs/imdb-example/.
-
-In order to load the data into Tensorboard, we need to save a training checkpoint to that directory, along with metadata that allows for visualization of a specific layer of interest in the model.
-<br>
-Checkout the [Notebook](https://github.com/Pradnya1208/Visualizing-data-using-the-embedding-projector-in-Tensorboard/blob/main/docs/tensorboard_projector_plugin.ipynb) for implementation details.
-
-### Run tensorboard against on log data we just saved:
-%tensorboard --logdir /logs/imdb-example/
-
-The TensorBoard Projector is a great tool for interpreting and visualzing embedding. The dashboard allows users to search for specific terms, and highlights words that are adjacent to each other in the embedding (low-dimensional) space.
-
-
-
 ### Learnings:
-`Word embeddings` `embedding layers` `tensorboard` 
-
-
-
-
+`CNN model` `ML classification algorithms`
 
 
 ## References:
